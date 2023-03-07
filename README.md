@@ -6,8 +6,8 @@
     -   pnpm i picocolors
 - [x] Perdile al usuario que escriba algo en un commint
 - [x] Mostrar una lista de posibles commints
+- [x] Comprobar si está en un repositorio Git (getChangesFiles)
 
-- [] Comprobar si está en un repositorio Git
 - [] Confirmar con el usuario el commint
 - [] Crear Commint
 - [] Crear binario
