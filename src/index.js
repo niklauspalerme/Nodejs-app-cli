@@ -64,7 +64,7 @@ const shouldContinue = await confirm({
 })
 
 if (!shouldContinue) {
-    outrO(colors.yellow('No se ha creado el commit'));
+    outro(colors.yellow('No se ha creado el commit'));
     process.exit(0)
 }
 
