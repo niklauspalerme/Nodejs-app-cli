@@ -24,6 +24,14 @@ export async function getStagedFiles() {
 }
 
 
+export async function gitCommit({ commit } = {}) {
+
+    const { stdout } = await execAsync(`git coommit -m ${commit}`);
+    return cleanStdout(stdout)
+
+}
+
+
 //Notas:
 
 //stdout (Standard Ouput) es el nombre que se coloca a una salida estandar de
